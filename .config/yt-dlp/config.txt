@@ -1,0 +1,23 @@
+#ignore errors (ie if unavailable video on playlist continue to next video)
+--ignore-errors
+
+#extract audio by default
+--extract-audio
+
+#audio format
+--audio-format "mp3"
+
+#embeded thumbnail as cover art
+#--embed-thumbnail
+
+#progressbar as console title
+--console-title
+
+#save music on E:\M\ficheiros de msica
+
+--output 'E:\M\Ficheiros de Musica\%(title)s.%(ext)s'
+
+#video options
+#--ignore-config
+#--output E:\V\%(title)s.%(ext)s
+#--

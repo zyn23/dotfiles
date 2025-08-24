@@ -1,2 +1,2 @@
 sudo apt update && sudo apt upgrade 
-sudo apt install inetutils kitty pipewire curl wget thunar rofi sassc eza rofi build-essential btop l3afpad micro mpv mupdf mupdf-tools tealdeer bat nsxiv fooyin ffmpeg yt-dlp clementine vlc gimp obs-studio steam flameshot
+sudo apt install gpick rsync fonts-font-awesome fonts-hack fonts-comfortaa xfonts-intl-arabic xfonts-intl-european xfonts-intl-asian xfonts-intl-chinese xfonts-intl-japanese xfonts-terminus inetutils kitty pipewire curl wget thunar rofi sassc eza rofi build-essential btop l3afpad micro mpv mupdf mupdf-tools tealdeer bat nsxiv fooyin ffmpeg yt-dlp clementine vlc gimp obs-studio steam flameshot

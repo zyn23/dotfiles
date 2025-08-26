@@ -9,3 +9,9 @@ git clone https://github.com/Murzchnvok/rofi-collection
 cd rofi-collection/
 sudo cp -r minimal/minimal.rasi /usr/share/rofi/themes/
 
+cd ..
+git clone https://github.com/NicklasVraa/NovaOS-nord-Icons.git
+
+cd NovaOS-nord/
+cp -r NovaOS-icons/ ~/.icons/
+

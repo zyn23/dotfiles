@@ -1,8 +1,16 @@
-##START BY UPDATING THE SYSTEM AND DOWNLOADING EVERYTHING THAT I THINK IS NECESSARY/NEEDED
+######START BY UPDATING THE SYSTEM AND DOWNLOADING EVERYTHING THAT I THINK IS NECESSARY/NEEDED
 
 
 sudo apt update && sudo apt upgrade 
 sudo apt install gpick rsync nala fonts-font-awesome fonts-jetbrains-mono fonts-hack fonts-comfortaa xfonts-intl-arabic xfonts-intl-european xfonts-intl-asian xfonts-intl-chinese xfonts-intl-japanese xfonts-terminus inetutils kitty pipewire curl wget thunar rofi fzf sassc eza rofi build-essential btop l3afpad micro mpv mupdf mupdf-tools tealdeer bat nsxiv fooyin ffmpeg yt-dlp clementine vlc gimp obs-studio steam flameshot
+
+###SOFTWARE I MIGHT CHANGE IN THE FUTURE BUT CONSIDER INSTALLING WILL BE COMMENTED FOR NOW
+
+#sudo apt install qalculate
+
+###LOOK INTO REMOVING USELESS SOFTWARE (LIKE GNOME-GAMES)
+
+sudo apt remove gnome-games
 
 ##INSTALL VSCODE SINCE IS BASICALLY THE ONLY GOOD ADVANCED TEXT EDITOR BESIDES ZED
 cd Downloads/ 

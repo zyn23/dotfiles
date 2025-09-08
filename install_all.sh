@@ -4,7 +4,10 @@
 
 
 sudo apt update && sudo apt upgrade 
-sudo apt install gpick rsync nala fonts-font-awesome fonts-jetbrains-mono fonts-hack fonts-comfortaa xfonts-intl-arabic xfonts-intl-european xfonts-intl-asian xfonts-intl-chinese xfonts-intl-japanese xfonts-terminus inetutils kitty pipewire curl wget thunar rofi fzf sassc eza rofi build-essential btop l3afpad micro mpv mupdf mupdf-tools tealdeer bat nsxiv fooyin ffmpeg yt-dlp clementine vlc gimp obs-studio steam flameshot
+sudo apt install gpick rsync nala fonts-font-awesome fonts-jetbrains-mono fonts-hack fonts-comfortaa xfonts-intl-arabic xfonts-intl-european xfonts-intl-asian \
+xfonts-intl-chinese xfonts-intl-japanese xfonts-terminus inetutils kitty pipewire curl wget thunar rofi fzf sassc eza rofi build-essential btop l3afpad micro \
+mpv mupdf mupdf-tools tealdeer bat nsxiv fooyin ffmpeg yt-dlp clementine vlc gimp obs-studio steam flameshot \
+arj lbzip2 lhasa liblz4-tool lrzip lzip lzop ncompress pbzip2 pigz plzip rar unar
 
 ###SOFTWARE I MIGHT CHANGE IN THE FUTURE BUT CONSIDER INSTALLING WILL BE COMMENTED FOR NOW
 

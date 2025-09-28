@@ -35,7 +35,8 @@ cd mpv-config
 cp portable_config/* ${HOME}/.config/mpv/
 
 ##INSTALL STARSHIP.RS
-
+curl -sS https://starship.rs/install.sh | sh
+eval "$(starship init bash)" >> ${HOME}/.bashrc
 
 ##########TODO
 #UPDATE THIS AS I SEE FIT

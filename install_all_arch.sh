@@ -4,9 +4,10 @@
 
 
 sudo pacman -Syu
-sudo pacman -S  gpick rsync  inetutils kitty curl wget thunar rofi fzf sassc eza rofi btop l3afpad micro \
-mpv mupdf mupdf-tools tealdeer bat nsxiv ffmpeg yt-dlp vlc gimp obs-studio steam \
-arj lbzip2 lhasa ncompress pbzip2 pigz code
+sudo pacman -S  gpick rsync inetutils kitty curl wget nemo rofi fzf eza btop l3afpad micro \
+mpv mupdf mupdf-tools tealdeer batcat nsxiv ffmpeg yt-dlp vlc gimp obs-studio steam \
+#SOME IMPORTANT DEPENDENCIES
+arj lbzip2 lhasa ncompress pbzip2 pigz sassc gcc
 
 ###SOFTWARE I MIGHT CHANGE IN THE FUTURE BUT CONSIDER INSTALLING WILL BE COMMENTED FOR NOW
 
@@ -17,29 +18,21 @@ arj lbzip2 lhasa ncompress pbzip2 pigz code
 
 
 ##INSTALL VSCODE SINCE IS BASICALLY THE ONLY GOOD ADVANCED TEXT EDITOR BESIDES ZED
-###ROFI THEMES INSTALATION - MINIMAL
-#NEED TO CHANGE COLORSCHEME LATER
-git clone https://github.com/Murzchnvok/rofi-collection
-cd rofi-collection/
-sudo cp -r minimal/minimal.rasi /usr/share/rofi/themes/
-
-
-##INSTALL NOVA-OS-NORD-ICONS ICON PACK
-cd
-git clone https://github.com/NicklasVraa/NovaOS-nord-Icons.git
-
-cd NovaOS-nord-Icons/
-cp -r NovaOS-nord/ ~/.icons/
-
 ####RUN INSTALL_BROWSERS.SH
 
-cd ..
+cd ${HOME}
 #MIGHT NEED TO TURN INTO EXECUTABLE
 chmod +x install_browsers.sh
 ./install_browsers.sh
 
-##########TODO
+##INSTALL MPV CONFIG FROM ZABOOBY
 
+cd ${HOME}
+git clone https://github.com/Zabooby/mpv-config.git
+cd mpv-config
+cp portable_config/* ~/.config/mpv/
+
+##########TODO
 #UPDATE THIS AS I SEE FIT
 
 #MAYBE MAKE EVERY CUSTOMIZATION ABOUT THE GTK THEME AND XFCE4-PANEL AUTOMATIC

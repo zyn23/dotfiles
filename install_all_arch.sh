@@ -5,32 +5,37 @@
 
 sudo pacman -Syu
 sudo pacman -S  gpick rsync inetutils kitty curl wget nemo rofi fzf eza btop l3afpad micro \
-mpv mupdf mupdf-tools tealdeer batcat nsxiv ffmpeg yt-dlp vlc gimp obs-studio steam \
+mpv mupdf mupdf-tools tealdeer bat nsxiv ffmpeg yt-dlp vlc gimp obs-studio steam mate-calc \
+#nerd fonts
+ttf-hack-nerd ttf-iosevka-nerd ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols \
+qbittorrent onionshare
 #SOME IMPORTANT DEPENDENCIES
-arj lbzip2 lhasa ncompress pbzip2 pigz sassc gcc
+sudo pacman -S --needed arj lbzip2 lhasa ncompress pbzip2 pigz sassc gcc git base-devel
 
 ###SOFTWARE I MIGHT CHANGE IN THE FUTURE BUT CONSIDER INSTALLING WILL BE COMMENTED FOR NOW
+#Qalculate needs to be downloaded from their website
 
-#sudo apt install qalculate
+##INSTALL YAY
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+cd ${HOME}/dotfiles
+##INSTALL VSCODE, QALCULATE
+yay code-bin qalculate-bin waterfox-bin
+
+###SYSADMIN AND CYBERSEC SOFTWARE
+#sudo pacman -S aircrack-ng wireshark-qt wireshark-cli armitage airgeddon johnny macchanger hamster-sidejack anonsurf anonsurf-gui \
+#encryptpad caido
 
 ###LOOK INTO REMOVING USELESS SOFTWARE (LIKE GNOME-GAMES)
 
-
-
-##INSTALL VSCODE SINCE IS BASICALLY THE ONLY GOOD ADVANCED TEXT EDITOR BESIDES ZED
-####RUN INSTALL_BROWSERS.SH
-
-cd ${HOME}
-#MIGHT NEED TO TURN INTO EXECUTABLE
-chmod +x install_browsers.sh
-./install_browsers.sh
-
 ##INSTALL MPV CONFIG FROM ZABOOBY
-
-cd ${HOME}
 git clone https://github.com/Zabooby/mpv-config.git
 cd mpv-config
-cp portable_config/* ~/.config/mpv/
+cp portable_config/* ${HOME}/.config/mpv/
+
+##INSTALL STARSHIP.RS
+
 
 ##########TODO
 #UPDATE THIS AS I SEE FIT

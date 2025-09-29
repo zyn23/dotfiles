@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Downloads
+Comment=Downloads Folder
+Exec=nemo ./Downloads
+Icon=folder-download
+Path=
+Terminal=false
+StartupNotify=false

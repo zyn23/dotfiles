@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Music
+Comment=Music folder
+Exec=nemo %g
+Icon=folder-music
+Path=$HOME/Music
+Terminal=false
+StartupNotify=false

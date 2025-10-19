@@ -9,7 +9,7 @@ cd $HOME
 
 ##ROFI THEMES INSTALATION - MINIMAL
 #NEED TO CHANGE COLORSCHEME LATER
-git clone https://github.com/Murzchnvok/rofi-collection
+git clone https://github.com/Murzchnvok/rofi-collection.git
 cd rofi-collection/
 sudo cp -r minimal/minimal.rasi /usr/share/rofi/themes/
 

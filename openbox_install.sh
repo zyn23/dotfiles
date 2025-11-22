@@ -1,6 +1,6 @@
 #! bin/bash
 
-sudo pacman -S openbox dunst lxappearance-obconf obconf-qt xterm
+sudo pacman -S openbox dunst lxappearance-obconf obconf-qt xterm nitrogen
 
 sudo pacman -S --needed base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 

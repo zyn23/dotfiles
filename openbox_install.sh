@@ -1,10 +1,10 @@
 #! bin/bash
 
-sudo pacman -S openbox-session lxappearance-obconf obconf-qt
+sudo pacman -S openbox dunst lxappearance-obconf obconf-qt xterm
 
 sudo pacman -S --needed base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 
-yay obmenu-generator
+yay obmenu-generator lemonbar
 
 obmenu-generator -u -p -c -i
 
